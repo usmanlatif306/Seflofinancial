@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<head>
+	<title>Steps Briskloanz </title>
+	<link rel="icon" href="../images/fav.png" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/steps.css">
+	<link rel="stylesheet" type="text/css" href="css/steps-comon.css">
+	
+	<style>
+		.radio-group.step02 label{
+			display: table;
+			height: 80px;
+		}
+		.radio-group.step02 label span {
+			display: table-cell;
+    		vertical-align: middle;
+		}
+	</style>
+	
+</head>
+<body>
+
+<header>
+	<nav class="navbar">
+		<div class="container">
+		  <div class="navbar-header">
+			<a class="navbar-brand" href="#"><img src="../images/logo.png"></a>
+		  </div>
+		  <!-- <ul class="nav navbar-nav">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">Page 1</a></li>
+			<li><a href="#">Page 2</a></li>
+		  </ul> -->
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="#"><!--<span class="glyphicon glyphicon-user"></span>--> Sign in</a></li>
+			<li><a href="#"><!-- <span class="glyphicon glyphicon-log-in"></span>--> Sign up</a></li>
+		  </ul>
+		</div>
+	  </nav>
+	  <div class="container-fluid">
+		<div class="row border-tb">
+			<div class="container">
+				<ul class="nav nav-tabs nav-justified pagesteps-links">
+					<li class="active"><a href="index.html">Basic Information</a></li>
+					<li><a href="own.html">Owner Information</a></li>
+					<li><a href="bus.html">Business Information</a></li>
+					<li><a href="doc.html">Documents Submission</a></li>
+					<li><a href="sub.html">Submission</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+</header>
+
+<div>
+
+<!-- multistep form -->
+<form class="msform">
+  <!-- progressbar -->
+  <!-- <ul id="progressbar">
+    <li class="active">Account Setup</li>
+    <li>Social Profiles</li>
+    <li>Personal Details</li>
+  </ul> -->
+  <!-- fieldsets -->
+  <fieldset>
+	<div class="step1">
+		<h2 class="fs-title">How much money do you need?</h2>
+		<h3 class="fs-subtitle">Lorem Ipsum is simply dummy text </h3>
+
+		<div class="input-group">
+			<span class="input-group-addon"><i class="fa fa-usd" aria-hidden="true"></i></span>
+			<input type="text" name="numeric" placeholder="Please enter a valid dollar amount" class="form-control numb" />
+		</div>
+	</div>	
+	<hr>
+	<div class="step3">	
+     	 <h2 class="fs-title">When did you start your business?</h2>
+   		 <h3 class="fs-subtitle">Lorem Ipsum is simply dummy text</h3>
+
+	    <div class="form-inline">		
+	      <div class="form-group">
+		      <select class="form-control" id="month_sec">
+		      	<option disabled="" selected>Select </option>
+		        <option> January </option>
+		        <option>February</option>
+		        <option>March</option>
+		        <option>April</option>
+		      </select>
+		  </div>
+		  <div class="form-group">    
+	     	<input type='text' id='' class="form-control nub" maxlength="4" />
+	     </div>	
+	    </div>
+		    
+    	<a href="#" type="button" name="next" class="next " value="Next">(Don't Remember Exact Date) </a>
+    </div>
+
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+
+  <fieldset class="">
+  	<div class="step02">
+    	<h2 class="fs-title">May we know purpose of loan? </h2>
+		<h3 class="fs-subtitle"> Lorem Ipsum is simply dummy text</h3>
+		
+		<div class="form-group text-left">
+			<label for="sel1">Select </label>
+			<select class="form-control" id="sel1">
+				<option disabled="" selected="">Select </option>
+			  	<option>Expansion of business</option>
+			  	<option>Working Capital- Line of credit</option>
+			  	<option>Invoice Financing</option>
+				<option> Merchant Cash Advance </option>
+				<option>Equipment financing </option>
+				<option>Small Business loans</option>
+				<option>Mortgage Loan</option>
+				<option>Paying Payroll</option>
+				<option>Professional Loan</option>
+				<option>Home Loan</option>
+				<option>Personal Loan</option>
+				<option>Finance a car</option>
+				<option>Buy out a business</option>
+				<option>Marketing and Promotions</option>
+				<option value="other_show"> Other</option>
+				  
+			</select>
+			
+			<div class="other_field mt-15">
+				<textarea class="form-control" rows="3" id="comment"></textarea>
+			</div>
+		</div>	
+        
+     </div>	
+	 <hr>
+     <div class="step2">
+     	<h2 class="fs-title">What is your credit score?</h2>
+    	<h3 class="fs-subtitle"> Lorem Ipsum is simply dummy text</h3>
+        <div class="radio-group ">
+	        <div class="btn-group" data-toggle="buttons">
+	            <label class="btn btn-default radio-btn radio-left">
+		            <input type="radio" id="" name="" value="1" /> 499 or below
+		        </label>
+		        <label class="btn btn-default radio-btn">
+		            <input type="radio" id="" name="" value="2" />500- 599
+		        </label> 
+		        <label class="btn btn-default radio-btn">
+		            <input type="radio" id="" name="" value="2" />600-649
+		        </label> 
+		        <label class="btn btn-default radio-btn">
+		            <input type="radio" id="" name="" value="2" />650-679
+		        </label>
+		        <label class="btn btn-default radio-btn">
+		            <input type="radio" id="" name="" value="2" />680-719
+		        </label>
+		        <label class="btn btn-default radio-btn">
+		            <input type="radio" id="" name="" value="2" />720 and above
+		        </label>
+	     	</div>  
+     	</div>
+	</div>
+	<hr>
+	<div class="step4 radio-group">
+		<h2 class="fs-title">What is your monthly turnover? </h2>
+		<h3 class="fs-subtitle">Lorem Ipsum is simply dummy text</h3>
+		<div class="">
+				<div class="btn-group" data-toggle="buttons">
+					 <label class="btn btn-default radio-btn radio-left">
+						<input type="radio" id="q156" name="" value="1" /> $ 0
+					</label>
+					<label class="btn btn-default radio-btn">
+						<input type="radio" id="" name="" value="2" /> $ 1k-5k
+					</label> 
+					<label class="btn btn-default radio-btn">
+						<input type="radio" id="" name="" value="2" /> $ 6k-10k
+					</label> 
+					<label class="btn btn-default radio-btn">
+						<input type="radio" id="" name="" value="2" /> $ 11k- 15k
+					</label>
+					<label class="btn btn-default radio-btn">
+						<input type="radio" id="" name="" value="2" /> $ 16k - 20k
+					</label>
+					<label class="btn btn-default radio-btn">
+						<input type="radio" id="" name="" value="2" /> $ 21k - 50k
+					</label>
+					<label class="btn btn-default radio-btn">
+						<input type="radio" id="" name="" value="2" /> $ 51k - 70k
+					</label>
+					<label class="btn btn-default radio-btn">
+						<input type="radio" id="" name="" value="2" /> $ 71k - 100k
+					</label>
+					<label class="btn btn-default radio-btn">
+						<input type="radio" id="" name="" value="2" /> Other
+					</label>
+				 </div>  
+			 </div>
+	</div>  
+	<hr>
+	<div class="step5 radio-group">
+		<h2 class="fs-title">Annual revenue of your business?</h2>
+		<h3 class="fs-subtitle">Lorem Ipsum is simply dummy text</h3>
+		<div class="">
+			<div class="btn-group" data-toggle="buttons">
+				 <label class="btn btn-default radio-btn radio-left">
+					<input type="radio" id="q156" name="" value="1" /> $ 0
+				</label>
+				<label class="btn btn-default radio-btn">
+					<input type="radio" id="" name="" value="2" /> $ 1k-50k
+				</label> 
+				<label class="btn btn-default radio-btn">
+					<input type="radio" id="" name="" value="2" /> $ 50k-100k
+				</label> 
+				<label class="btn btn-default radio-btn">
+					<input type="radio" id="" name="" value="2" /> $ 100k- 150k
+				</label>
+				<label class="btn btn-default radio-btn">
+					<input type="radio" id="" name="" value="2" /> $ 150k - 200k
+				</label>
+				<label class="btn btn-default radio-btn">
+					<input type="radio" id="" name="" value="2" /> $ 200k - 500k
+				</label>
+				<label class="btn btn-default radio-btn">
+					<input type="radio" id="" name="" value="2" /> $ 500k - 1m
+				</label>
+				<label class="btn btn-default radio-btn">
+					<input type="radio" id="" name="" value="2" /> More than 1mn $
+				</label>
+				<label class="btn btn-default radio-btn">
+					<input type="radio" id="" name="" value="2" />Other
+				</label>
+			 </div>  
+		 </div>
+		
+	</div>
+	
+
+	<input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+
+  <fieldset class="step8">
+	<div class="row step6">
+		<h2 class="fs-title">What is most important for you? </h2>
+		<h3 class="fs-subtitle">Lorem Ipsum is simply dummy text</h3>
+		<div class="check-box col-md-6">
+				<input class="magic-checkbox" type="checkbox" name="layout" id="step6-1">
+				<label for="step6-1">Amount</label>
+		</div>
+		<div class="check-box col-md-6">
+			<input class="magic-checkbox" type="checkbox" name="layout" id="step6-2">
+			<label for="step6-2">Speed</label>
+		</div>
+		<div class="check-box col-md-6">
+			<input class="magic-checkbox" type="checkbox" name="layout" id="step6-3">
+			<label for="step6-3">Low APR</label>
+		</div>
+		<div class="check-box col-md-6">
+			<input class="magic-checkbox" type="checkbox" name="layout" id="step6-4">
+			<label for="step6-4">Fewer Documentation</label>
+		</div>
+	</div>
+	<hr>
+	<div class="row step7">
+		<h2 class="fs-title">What type of customers does your business serve? </h2>
+		<h3 class="fs-subtitle">Lorem Ipsum is simply dummy text</h3>
+			<div class="check-box col-md-6">
+				<input class="magic-checkbox" type="checkbox" name="layout" id="step7-1">
+				<label for="step7-1">SMEs</label>
+			</div>
+			<div class="check-box col-md-6">
+				<input class="magic-checkbox" type="checkbox" name="layout" id="step7-2">
+				<label for="step7-2">Retail Consumers</label>
+			</div>
+			<div class="check-box col-md-6">
+				<input class="magic-checkbox" type="checkbox" name="layout" id="step7-3">
+				<label for="step7-3">Large Corporates</label>
+			</div>
+			<div class="check-box col-md-6">
+				<input class="magic-checkbox" type="checkbox" name="layout" id="step7-4">
+				<label for="step7-4">Wholesale or distributor</label>
+			</div>
+			<div class="check-box col-md-6">
+				<input class="magic-checkbox" type="checkbox" name="layout" id="step7-5">
+				<label for="step7-5">Public Sector</label>
+			</div>
+			<div class="check-box col-md-6">
+				<input class="magic-checkbox anyother" value="step7other" type="checkbox" name="layout" id="step7-6">
+				<label for="step7-6">Any other</label>
+			</div>
+			<div class="col-md-12">
+				 <div class="step7other">
+					 <textarea class="form-control" rows="3" id="comment"></textarea>
+				 </div>
+			</div> 
+
+	</div>
+	<hr>
+    <h2 class="fs-title">Are you an accountant or a business owner?  </h2>
+	<h3 class="fs-subtitle">Lorem Ipsum is simply dummy text</h3>
+		<div class="radio_options">
+    	<div class="col-md-6 radio-box ">
+			<input type="radio" class="magic-radio options_check" value="step8acc"  name="step8" id="step8-1">
+			<label for="step8-1">Accountant</label>
+		</div>
+		<div class="col-md-6 radio-box">
+			<input type="radio" class="magic-radio" value="step8bus" name="step8" id="step8-2">
+			<label for="step8-2">Business Owner</label>
+		</div>
+
+		<div class="col-md-12 depends">
+			<hr>
+				<div class="row radio_options">
+					<h3 class="fs-title-b">Whom to be contacted?</h3>
+					<div class="col-md-6 radio-box">
+						<input type="radio" class="magic-radio anyother" value="step_me"  name="step8-a" id="step8-3">
+						<label for="step8-3">Just me </label>
+					</div>
+					<div class="col-md-6 radio-box">
+						<input type="radio" class="magic-radio anyother" value="step_client" name="step8-a" id="step8-4">
+						<label for="step8-4"> I and my client</label>
+					</div>
+					<div class="col-md-12 step_me radio-target">
+						<div class="row">
+						<hr>
+						 <h2 class="fs-title">Contact information</h2>
+						 <h3 class="fs-subtitle">Lorem Ipsum is simply dummy text</h3>
+							<div class="form-group text-left col-md-6">
+								<!-- <label for="name">Name :</label> -->
+								<input type="text" placeholder="First Name" class="form-control" id="name">
+							</div>
+							<div class="form-group text-left col-md-6">
+								<!-- <label for="name">Name :</label> -->
+								<input type="text" placeholder="Last Name" class="form-control" id="name">
+							</div>
+							<div class="form-group text-left col-md-6">
+								<!-- <label for="name">Name :</label> -->
+								<input type="text" placeholder="Phone Number" class="form-control numb" id="numb">
+							</div>
+	
+							<div class="form-group text-left col-md-6">
+								<!-- <label for="email">Email:</label> -->
+								<input type="email" class="form-control" id="email" placeholder="Email Id" name="email">
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					 </div>
+					 <div class="col-md-12 step_client radio-target">
+						<div class="row">
+						   <hr>
+							<h2 class="fs-title">Client information</h2>
+							<h3 class="fs-subtitle">Lorem Ipsum is simply dummy text</h3>
+						   <div class="col-md-6">
+							   <div class="form-group text-left">
+								   <!-- <label for="">Client Name</label> -->
+								   <input type="text" class="form-control" id="" placeholder="First Name">
+							   </div>
+						   </div>
+						   <div class="col-md-6">
+							<div class="form-group text-left">
+								<!-- <label for="">Client Name</label> -->
+								<input type="text" class="form-control" id="" placeholder="Last Name">
+							</div>
+						</div>
+						   <div class="col-md-6">
+							   <div class="form-group text-left">
+								   <!-- <label for="">Client Phone</label> -->
+								   <input type="text" placeholder="Phone Number" class="form-control" id="">
+							   </div>
+						   </div>
+						   <div class="col-md-6">
+							   <div class="form-group text-left">
+								   <!-- <label for="">Client Email ID</label> -->
+								   <input type="email" placeholder="Email ID" class="form-control" id="">
+							   </div>
+						   </div>
+						</div>
+						
+			   </div> 
+					
+				</div>	
+			
+		</div>
+			
+		
+	<input type="button" name="previous" class="previous action-button" value="Previous" />
+	<a href="own.html" class="next action-button" type="button">Next</a>
+	</div>
+    <!--<input type="button" name="next" class="next action-button" value="Next" /> -->
+  </fieldset>
+
+</form>
+</div>
+
+<footer class="container-fluid">
+	<div class="row">
+		<div class="container">
+			<ul class="list-inline text-center">
+				<li>Copyright &#169; 2020 Briskloanz  |  All Rights Reserved. </li>
+				<li><a href="#"> Terms of Use </a></li>
+				<li><a href="#">Privacy Policy</a></li>
+			  </ul>
+			  <div class="text-center">
+				  <p>4100 Abc Ridge Road, Suite 500, abc, UT 84043 <br>
+					(123) 456-7890</p>
+			  </div>
+		</div>
+	</div>
+	
+</footer>
+
+
+
+
+
+	<script type="text/javascript" src="../js/vendor/jquery-library.js"></script>
+	<!-- <script src="../js/vendor/jquery-migrate.js"></script> -->
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/steps.js"></script>
+	<script type="text/javascript" src="../js/vendor/bootstrap.min.js"></script>
+	
+</body>
+</html>

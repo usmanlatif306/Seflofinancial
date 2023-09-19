@@ -1,0 +1,13 @@
+	<script src="<?php echo base_url(); ?>assets/homeweb/js/vendor/jquery-library.js"></script>
+	<script src="<?php echo base_url(); ?>assets/homeweb/js/vendor/jquery-migrate.js"></script>
+	<script src="<?php echo base_url(); ?>assets/homeweb/js/vendor/bootstrap.min.js"></script>
+	<script src="<?php echo base_url(); ?>assets/homeweb/js/owl.carousel.min.js"></script>
+	<script src="<?php echo base_url(); ?>assets/homeweb/js/Chart.bundle.min.js"></script>
+	<script src="<?php echo base_url(); ?>assets/homeweb/js/isotope.pkgd.js"></script>
+	<script src="<?php echo base_url(); ?>assets/homeweb/js/prettyPhoto.js"></script>
+	<script src="<?php echo base_url(); ?>assets/homeweb/js/jquery.vide.js"></script>
+	<script src="<?php echo base_url(); ?>assets/homeweb/js/pogoslider.js"></script>
+	<script src="<?php echo base_url(); ?>assets/homeweb/js/countTo.js"></script>
+	<script src="<?php echo base_url(); ?>assets/homeweb/js/appear.js"></script>
+	<script src="<?php echo base_url(); ?>assets/homeweb/js/gmap3.js"></script>
+	<script src="<?php echo base_url(); ?>assets/homeweb/js/function.js"></script>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<!--[if lt IE 7]>   <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>      <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>      <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<head>
+  <title>Sign Up | Briskloanz </title>
+  <link rel="icon" href="../images/fav.png" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="../css/normalize.css"> -->
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="css/steps.css">
+  <link rel="stylesheet" type="text/css" href="css/steps-comon.css">
+  <style type="text/css">
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
+.navbar-brand {
+  height: auto;
+}
+.ct-container {
+  max-width: 500px;
+}
+
+
+
+  </style>
+</head>
+<body>
+  <header>
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="../images/logo.png"></a>
+      </div>
+      <!-- <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      </ul> -->
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><!--<span class="glyphicon glyphicon-user"></span>--> Sign in</a></li>
+      <li><a href="#"><!-- <span class="glyphicon glyphicon-log-in"></span>--> Sign up</a></li>
+      </ul>
+    </div>
+    </nav>
+    
+</header>
+  
+  <div>
+<form class="msform">
+  <fieldset>
+  <h3 class="text-center"> Create your loan profile </h3>
+  <h5 class="text-center">PAYCHECK PROTECTION PROGRAM</h5>
+  <p class="text-center"> Already have an account? <a href="login.html"> Sign in </a> </p>
+<br>
+  <div class="col-md-6">
+    <div class="form-group text-left">
+      <label for="">Name</label>
+      <input type="text" class="form-control" id="">
+    </div>
+  </div>  
+  <div class="col-md-6">
+    <div class="form-group text-left">
+      <label for="">Last Name</label>
+      <input type="text" class="form-control" id="">
+    </div>
+  </div>
+  <div class="col-md-12">
+    <div class="form-group text-left">
+      <label for="">Business Name</label>
+      <input type="text" class="form-control" id="">
+    </div>
+  </div>  
+  <div class="col-md-12">
+    <div class="form-group text-left">
+      <label for="">Mobile Phone</label>
+      <input type="text" class="form-control" id="">
+    </div>
+  </div>
+  
+  <div class="col-md-12">
+    <div class="form-group text-left">
+      <label for="email">Email Address</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+  </div>
+  
+  <div class="col-md-12">  
+    <div class="form-group text-left">
+      <label for="pwd">Password</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+  </div>  
+
+  <div class="col-md-12">  
+    <div class="form-group text-left">
+      <label for="pwd">Confirm Password</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+  </div>  
+  <div class="clearfix"></div>
+  <div class="checkbox">
+    <label><input type="checkbox"> I agree to the following terms</label>
+  </div>
+  <!-- <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div> -->
+  <div class="text-center">
+    <button type="submit" class="btn action-button ">Sign Up</button> <br><br>
+    <a href="forgot.html">Forgot Password </a>
+  </div> 
+  </fieldset> 
+</form>
+
+</div>
+
+<footer class="container-fluid">
+  <div class="row">
+    <div class="container">
+      <ul class="list-inline text-center">
+        <li>Copyright &#169; 2020 Briskloanz  |  All Rights Reserved. </li>
+        <li><a href="#"> Terms of Use </a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <div class="text-center">
+          <p>4100 Abc Ridge Road, Suite 500, abc, UT 84043 <br>
+          (123) 456-7890</p>
+        </div>
+    </div>
+  </div>
+  
+</footer>
+
+  <script type="text/javascript" src="../js/vendor/jquery-library.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="../js/vendor/bootstrap.min.js"></script>
+
+</body>
+</html>
