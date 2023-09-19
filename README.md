@@ -14,4 +14,4 @@ Seflo Financial is a private lending organization that help people borrow money 
 
 ![App Screenshot](https://firebasestorage.googleapis.com/v0/b/laravel-notification-22697.appspot.com/o/seflo%2Fscreenshot-loan.dev.com-2023.09.19-16_58_33.png?alt=media&token=97c60d56-b6b1-446b-9a6d-c30c1a4c1b47)
 
-![App Screenshot](https://firebasestorage.googleapis.com/v0/b/laravel-notification-22697.appspot.com/o/seflo%2Fscreenshot-loan.dev.com-2023.09.19-16_59_00.png?alt=media&token=d5ea8a71-5a2a-4b34-b7b1-7265aea6ccaf)
+![App Screenshot](https://firebasestorage.googleapis.com/v0/b/laravel-notification-22697.appspot.com/o/seflo%2Fscreenshot-loan.dev.com-2023.09.19-17_14_29.png?alt=media&token=ef7280c0-c2b0-470c-8884-11df9df26676)
